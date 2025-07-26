@@ -8,7 +8,7 @@ This repository, for now, contains my Week 2 submission for the Tree Species Ide
 - `TreeSpecies.ipynb` – Colab notebook where I did everything from Data Exploration to Model Training.
 - `Tree_Species_Dataset/` – Dataset folder (images organized class-wise)
 - `tree_species_model.h5` - 1st model.
-- `basic_cnn_tree_species.h5` - 2nd model (Can be accessed from the Colab notebook).
+- `basic_cnn_tree_species.h5` - 2nd model.
 - `improved_cnn_model.h5` - 3rd model (Can be accessed from the Colab notebook).
 
 ## Colab Notebook
@@ -34,7 +34,7 @@ This repository, for now, contains my Week 2 submission for the Tree Species Ide
 - Trained models:
   - `tree_species_model.h5`
   - `basic_cnn_tree_species.h5` - Can't be added due to file size limits. 
-  - `improved_cnn_model.h5` - Can't be added due to file size limits. 
+  - `improved_cnn_model.h5` 
 
 ## Visualizations
 - Training and validation accuracy/loss plots included.
