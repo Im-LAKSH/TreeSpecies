@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-model = tf.keras.models.load_model("improved_cnn_model.h5")
+model = tf.keras.models.load_model("best_model.h5")
 class_names = ['nilgiri', 'coconut', 'vad', 'gulmohor', 'sitafal', 'kesudo', 'bili', 'sugarcane', 'gunda', 'saptaparni', 'pilikaren', 'kanchan', 'motichanoti', 'shirish', 'sonmahor', 'babul', 'amla', 'banyan', 'cactus', 'bamboo', 'simlo', 'jamun', 'mango', 'other', 'pipal', 'neem', 'champa', 'khajur', 'garmalo', 'asopalav']
 
 def preprocess_image(image):
